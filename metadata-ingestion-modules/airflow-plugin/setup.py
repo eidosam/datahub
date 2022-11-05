@@ -23,9 +23,7 @@ base_requirements = {
     "typing-inspect",
     "pydantic>=1.5.1",
     "apache-airflow >= 2.0.2",
-    "acryl-datahub[airflow] >= 0.8.36",
-    # Pinned dependencies to make dependency resolution faster.
-    "sqlalchemy==1.3.24",
+    "acryl-datahub[airflow] >= 0.9.2"
 }
 
 
